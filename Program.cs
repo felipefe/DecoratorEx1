@@ -9,7 +9,7 @@
             var anexo = new DecoratorMsgAnexo(notificador_personalizado); 
 
             var mensagem = "Mensagem importante!";
-            //notificador_personalizado.EnviarMensagem(mensagem);
+            notificador_personalizado.EnviarMensagem(mensagem);
             anexo.EnviarMensagem(mensagem);
         }
     }
